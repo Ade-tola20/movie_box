@@ -94,6 +94,7 @@ const Home = () => {
                 key={movie.id}
                 movie={movie}
                 posterBaseUrl={posterBaseUrl}
+                data-testid="movie-card"
               />
             ))}
           </div>
